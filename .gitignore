@@ -1,0 +1,53 @@
+# Laravel
+/vendor
+/node_modules
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+/.ddev
+/.fleet
+/.nova
+/.zed
+coverage
+
+# Frontend
+frontend/node_modules
+frontend/dist
+frontend/.env
+frontend/.env.local
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+/bootstrap/cache/services.php
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/storage/app/public
+/storage/framework/cache/data
+/storage/framework/sessions/*
+/storage/framework/views/*
+/var/log/*
+
+# Docker
+.dockerignore
+
+# Editor
+*.swp
+*.swo
+*~
