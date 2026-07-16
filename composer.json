@@ -63,10 +63,14 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
-        },
-        "audit": {
-            "abandoned": "ignore",
-            "block": false
+        }
+    },
+    "policy": {
+        "advisories": {
+            "block": false,
+            "ignore": [
+                "laravel/framework"
+            ]
         }
     },
     "minimum-stability": "stable",
